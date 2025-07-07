@@ -1,0 +1,16 @@
+D:/c++/PandaEngine/build/CMakeFiles/INSTALL.dir
+D:/c++/PandaEngine/build/CMakeFiles/ALL_BUILD.dir
+D:/c++/PandaEngine/build/CMakeFiles/ZERO_CHECK.dir
+D:/c++/PandaEngine/build/PandaEngineCore/CMakeFiles/PandaEngineCore.dir
+D:/c++/PandaEngine/build/PandaEngineCore/CMakeFiles/INSTALL.dir
+D:/c++/PandaEngine/build/PandaEngineCore/CMakeFiles/ALL_BUILD.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/CMakeFiles/uninstall.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/CMakeFiles/INSTALL.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/CMakeFiles/ALL_BUILD.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/src/CMakeFiles/glfw.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/src/CMakeFiles/update_mappings.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/src/CMakeFiles/INSTALL.dir
+D:/c++/PandaEngine/build/PandaEngineCore/glfw/docs/CMakeFiles/INSTALL.dir
+D:/c++/PandaEngine/build/PandaEditor/CMakeFiles/PandaEditor.dir
+D:/c++/PandaEngine/build/PandaEditor/CMakeFiles/INSTALL.dir
+D:/c++/PandaEngine/build/PandaEditor/CMakeFiles/ALL_BUILD.dir

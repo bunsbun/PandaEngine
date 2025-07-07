@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c\u002B\u002B\\PandaEngine\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE075D8-9549-3A71-ADE1-1B4E90406585}|PandaEngineCore\\PandaEngineCore.vcxproj|D:\\c\u002B\u002B\\PandaEngine\\PandaEngineCore\\src\\PandaEngineCore\\Utils\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C57356-94DA-3060-85BC-5EAA67F729D7}|PandaEditor\\PandaEditor.vcxproj|D:\\c\u002B\u002B\\PandaEngine\\PandaEditor\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BE075D8-9549-3A71-ADE1-1B4E90406585}|PandaEngineCore\\PandaEngineCore.vcxproj|D:\\c\u002B\u002B\\PandaEngine\\PandaEngineCore\\includes\\PandaEngineCore\\Utils\\test.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a0c5197d-0ac7-4b63-97cd-8872a789d233}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.hpp",
+              "DocumentMoniker": "D:\\c\u002B\u002B\\PandaEngine\\PandaEngineCore\\includes\\PandaEngineCore\\Utils\\test.hpp",
+              "RelativeDocumentMoniker": "..\\PandaEngineCore\\includes\\PandaEngineCore\\Utils\\test.hpp",
+              "ToolTip": "D:\\c\u002B\u002B\\PandaEngine\\PandaEngineCore\\includes\\PandaEngineCore\\Utils\\test.hpp",
+              "RelativeToolTip": "..\\PandaEngineCore\\includes\\PandaEngineCore\\Utils\\test.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-06T14:09:36.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\c\u002B\u002B\\PandaEngine\\PandaEditor\\src\\main.cpp",
+              "RelativeDocumentMoniker": "..\\PandaEditor\\src\\main.cpp",
+              "ToolTip": "D:\\c\u002B\u002B\\PandaEngine\\PandaEditor\\src\\main.cpp",
+              "RelativeToolTip": "..\\PandaEditor\\src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-06T14:00:31.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\c\u002B\u002B\\PandaEngine\\PandaEngineCore\\src\\PandaEngineCore\\Utils\\test.cpp",
+              "RelativeDocumentMoniker": "..\\PandaEngineCore\\src\\PandaEngineCore\\Utils\\test.cpp",
+              "ToolTip": "D:\\c\u002B\u002B\\PandaEngine\\PandaEngineCore\\src\\PandaEngineCore\\Utils\\test.cpp",
+              "RelativeToolTip": "..\\PandaEngineCore\\src\\PandaEngineCore\\Utils\\test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-06T13:58:59.158Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

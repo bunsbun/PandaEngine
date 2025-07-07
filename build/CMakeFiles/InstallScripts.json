@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/c++/PandaEngine/build/cmake_install.cmake",
+		"D:/c++/PandaEngine/build/PandaEngineCore/cmake_install.cmake",
+		"D:/c++/PandaEngine/build/PandaEngineCore/glfw/cmake_install.cmake",
+		"D:/c++/PandaEngine/build/PandaEngineCore/glfw/src/cmake_install.cmake",
+		"D:/c++/PandaEngine/build/PandaEngineCore/glfw/docs/cmake_install.cmake",
+		"D:/c++/PandaEngine/build/PandaEditor/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
