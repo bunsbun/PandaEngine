@@ -1,4 +1,0 @@
-namespace PandaEngine
-{
-	int checkGLFW();
-}
