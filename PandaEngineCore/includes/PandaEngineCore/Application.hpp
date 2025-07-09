@@ -1,3 +1,6 @@
+#pragma once
+
+#include <memory>
 namespace PandaEngine{
 
 	class Application
@@ -14,5 +17,7 @@ namespace PandaEngine{
 		virtual int StartApplicationWindow(unsigned int width, unsigned int hidth, const char* title);
 		virtual void OnUpdate(){}; //each frame
 
+	private:
+		std::unique_ptr<class Window> m_pWindow;
 	};
 }

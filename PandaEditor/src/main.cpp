@@ -11,24 +11,13 @@ class MyApp : public PandaEngine::Application
 	}
 
 	int frame = 0;
-
-	   
-
 };
-
-
-
 
 int main()
 {
-
-
 	auto myApp = std::make_unique<MyApp>();
-
-	int returnCode = myApp->StartApplicationWindow(1024, 768, "My first App");
-
+	int returnCode = myApp->StartApplicationWindow(1024, 768, "Window");
 	std::cin.get();
-
 
 	return returnCode;
 }
