@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 4.0.3)
 
 project(PandaEngine LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_EXPERIMENTAL_CXX_MODULE_CMAKE_API ON)
 
 add_subdirectory(PandaEngineCore)
 add_subdirectory(PandaEditor)

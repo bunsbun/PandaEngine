@@ -1,23 +1,21 @@
-#pragma once
+import application;
+#include <memory>
 #include <iostream>
-#include <PandaEngineCore/Application.hpp>
-#include "memory"
-
-class MyApp : public PandaEngine::Application
-{
-	virtual void OnUpdate() override
-	{
-		//std::cout << "Update frame:" << ++frame << std::endl;
-	}
-
-	int frame = 0;
-};
+//class MyApp : Application
+//{
+//	virtual void OnUpdate() override
+//	{
+//		//std::cout << "Update frame:" << ++frame << std::endl;
+//	}
+//
+//	int frame = 0;
+//};
 
 int main()
 {
-	auto myApp = std::make_unique<MyApp>();
-	int returnCode = myApp->StartApplicationWindow(1024, 768, "Window");
+	auto app = std::make_unique<Application>();
+	int returnCode = app->StartApplicationWindow(1024, 768, "Window");
 	std::cin.get();
 
-	return returnCode;
+	return 0;
 }
