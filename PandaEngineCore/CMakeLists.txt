@@ -7,6 +7,7 @@ project(${ENGINE_PROJECT_NAME} LANGUAGES CXX)
 set(ENGINE_PUBLIC_INCLUDES
 	# includes/PandaEngineCore/Application.hpp
 	includes/PandaEngineCore/Log.hpp
+	includes/PandaEngineCore/Event.hpp
 )
 
 # set(ENGINE_PRIVATE_INCLUDES

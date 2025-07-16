@@ -1,15 +1,7 @@
 import application;
 #include <memory>
 #include <iostream>
-//class MyApp : Application
-//{
-//	virtual void OnUpdate() override
-//	{
-//		//std::cout << "Update frame:" << ++frame << std::endl;
-//	}
-//
-//	int frame = 0;
-//};
+
 
 int main()
 {
