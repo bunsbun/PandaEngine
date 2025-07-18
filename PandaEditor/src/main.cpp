@@ -2,7 +2,6 @@ import application;
 #include <memory>
 #include <iostream>
 
-
 int main()
 {
 	auto app = std::make_unique<Application>();

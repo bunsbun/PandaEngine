@@ -15,10 +15,10 @@ set(ENGINE_PUBLIC_INCLUDES
 
 # )
 
-# set(ENGINE_PRIVATE_SOURCES
-	# src/PandaEngineCore/Application.cpp
-	# src/PandaEngineCore/Window.cpp
-# )
+set(ENGINE_PRIVATE_SOURCES
+	src/PandaEngineCore/Application.cpp
+	src/PandaEngineCore/Window.cpp
+)
 
 add_library(${ENGINE_PROJECT_NAME} STATIC 
 			${ENGINE_PUBLIC_INCLUDES}
