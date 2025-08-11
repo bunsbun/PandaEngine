@@ -1,8 +1,13 @@
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-#include <string>
 #include "PandaEngineCore/Log.hpp"
 #include "PandaEngineCore/Event.hpp"  
+
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+
+#include <string>
+#include <imgui/imgui.h>
+#include <imgui/backends/imgui_impl_opengl3.h>
+#include <imgui/backends/imgui_impl_glfw.h>
 
 import window;  
 
@@ -13,6 +18,11 @@ Window::Window(std::string title, const unsigned int width, const unsigned int h
 
 {
 	int resultCode = Init();
+
+	IMGUI_CHECKVERSION();
+	ImGui::CreateContext();
+	ImGui_ImplOpenGL3_Init();
+	ImGui_ImplGlfw_InitForOpenGL(m_pWindow, true); // keyboard and mouse input enabled
 }
 
 Window::~Window()
@@ -70,6 +80,8 @@ int Window::Init()
 		{
 			WindowData& data = *static_cast<WindowData*>(glfwGetWindowUserPointer(pWindow));
 
+
+
 			PandaEngine::EventMouseMoved event(x, y);
 			data.m_eventCallback(event);
 		}
@@ -96,9 +108,29 @@ void Window::ShutDown()
 
 void Window::OnUpdate()
 {
-	glClearColor(1, 0, 0, 0);
+	glClearColor(m_backgroundColor[0], m_backgroundColor[1], m_backgroundColor[2], m_backgroundColor[3]);
 	glClear(GL_COLOR_BUFFER_BIT);
+
+
+	ImGuiIO& io = ImGui::GetIO();
+	io.DisplaySize.x = GetWidthWindow();
+	io.DisplaySize.y = GetHeightWindow();
+
+	ImGui_ImplOpenGL3_NewFrame();
+	ImGui_ImplGlfw_NewFrame();
+
+	ImGui::NewFrame();
+	ImGui::ShowDemoWindow();
+
+	ImGui::Begin("Background color window");
+	ImGui::ColorEdit4("Background color", m_backgroundColor);
+	ImGui::End();
+
+	ImGui::Render();
+	ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+
 	glfwSwapBuffers(m_pWindow);
 	glfwPollEvents();
+
 
 }
